@@ -104,14 +104,14 @@ return [
         /*
          * Select default language
          */
-        'default' => 'en',
+        'default' => 'pt_BR',
 
         /*
          * Select languages that are supported.
          */
         'locales' => [
             'en',
-            //'pt',
+            'pt_BR',
         ],
     ],
 
@@ -163,13 +163,13 @@ return [
         'add_menu_item' => true,
 
         // which menu add item to
-        'default_menu' => 'admin',
+        'default_menu' => 'dev',
 
         // When a BREAD is added, create the related Permission.
         'add_permission' => true,
 
         // which role add premissions to
-        'default_role' => 'admin',
+        'default_role' => 'dev',
     ],
 
     /*

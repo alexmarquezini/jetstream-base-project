@@ -5,7 +5,7 @@
         </template>
 
         <template #description>
-            Create a new team to collaborate with others on projects.
+            {{__('Create a new team to collaborate with others on projects.')}}
         </template>
 
         <template #form>
